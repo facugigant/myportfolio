@@ -11,12 +11,90 @@
   margin-top: 300px;
 
 }
+/* Flecha navbar */
+#flechanav{
+  margin-top: 50vh;
+  font-size: 50px;
+  margin-left: 0px;
+  width: 20px;
+  height: 20px;
+animation-name: movimiento1;
+animation-duration: 2s;
+animation-delay: 0s;
+animation-iteration-count: 99999;
+
+}
+/* Animacion Navbar */
+@keyframes movimiento1{
+  0% {color: blue;}
+  50% {color: rgb(21, 236, 228);}
+  75% {color: violet;margin-left: 25px;}
+ 100% {color: red;margin-left: 25px;}
+}
+.fade:active{
+  animation-name: movimiento2;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-iteration-count: 99999;
+}
 
 /* Modals */
 
 
+.modal-header{
+
+  height: 10vh;
+  text-align: center;
+  background: white;
+}
+.nav-link{
+
+  background: white !important;
+}
+
+.modal-body{
+  text-align: start;
+  width: 500px;
+}
+.modal-body h1{
+  font-size: 27px;
+}
+.modal-body p{
+  margin: 0%;
+  padding: 0%;
+  font-size: 15px;
+ margin-top: 5%;
+
+}
+
+.modal-footer{
+  display: grid; 
+  grid-auto-columns: 1fr; 
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  gap: 0px 0px; 
+}
+
+.redes{
+transform: scale(2);
+text-align: center;
+
+}
 
 
+
+/* habilidades modals */
+.habilidades {
+  display: grid; 
+  grid-auto-columns: 1fr; 
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". . . ."
+    ". . . ."
+    ". . . ."
+    ". . . ."; 
+}
 
 
 /* Edits */
@@ -32,4 +110,78 @@
   position: relative;
   font-size: 14px;
   color: black;
+}
+.nav-link:hover{
+border-bottom: 2px solid blue;
+
+}
+
+
+#exampleModal2{
+  position: absolute;
+animation: fadeInLeft;
+animation-duration: 0.5s;
+
+overflow: hidden;
+}
+#exampleModal3{
+  position: absolute;
+animation: fadeInLeft;
+animation-duration: 0.5s;
+
+overflow: hidden;
+}
+#sobremi1{
+  position: absolute;
+animation: fadeInLeft;
+animation-duration: 0.5s;
+
+overflow: hidden;
+}
+
+
+.modal-content{
+  height: 600px;
+  margin-top: 1px;
+}
+
+.izquierda{
+
+animation: zoomInLeft;
+animation-duration: 1.0s;
+animation-delay: 0s;
+
+
+}
+.derecha{
+  
+animation: zoomInDown;
+animation-duration: 1.5s;
+animation-delay: 0s;
+
+}
+
+.p1{
+  animation: zoomIn;
+  animation-duration: 3s;
+animation-delay: 0s;
+}
+
+.p2{
+  animation: zoomIn;
+  animation-duration: 4s;
+  animation-delay: 0s;
+
+}
+.p3
+{
+  animation: zoomIn;
+  animation-duration: 5s;
+  animation-delay: 0s;
+
+}
+
+.modal-backdrop
+{
+    opacity:0.0 !important;
 }

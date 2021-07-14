@@ -15,7 +15,7 @@ text-align: center;}
 }
 
 .babyheader{
-    background: white;
+    background: black;
     width: 8%;
 height: 100vh;
 }
@@ -24,33 +24,6 @@ height: 100vh;
     margin-top: 35%;
 }
 
-.habilidades {
-    display: grid; 
-    grid-auto-columns: 1fr; 
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
-    grid-template-rows: 1fr 1fr 1fr 1fr; 
-    gap: 0px 0px; 
-    grid-template-areas: 
-      ". . . ."
-      ". . . ."
-      ". . . ."
-      ". . . ."; 
-  }
 
-  .modal-footer{
-    display: grid; 
-    grid-auto-columns: 1fr; 
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
-    gap: 0px 0px; 
-  }
 
-  .redes{
-      width: 50px;
-      height: 50px;
-  
-  }
-#flechanav{
-    margin-top: 50vh;
-    font-size: 50px;
-    margin-left: 10px;
-}
+
